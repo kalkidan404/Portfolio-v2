@@ -2,8 +2,8 @@ import { useState } from "react";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Bookshelf from "./components/Bookshelf";
-import ProjectReader from "./components/ProjectReader";
+import Bookshelf from "./components/BookShelf";
+import ProjectReader from "./components/projectReader";
 
 import projects from "./data/projects";
 
