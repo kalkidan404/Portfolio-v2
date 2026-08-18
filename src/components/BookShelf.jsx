@@ -1,4 +1,4 @@
-import ProjectPaper from "./ProjectPaper";
+import ProjectPaper from "./projectPaper";
 
 function Bookshelf({ projects, onProjectClick }) {
   return (
