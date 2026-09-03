@@ -33,7 +33,9 @@ const projects = [
     "Admin order management",
     "Role-based access control",
     "Responsive design"
-  ]
+  ],
+   github: "https://github.com/kalkidan404/FoodOrder",
+    live: "https://food-order-pled.vercel.app/",
 },
   {
     id: 2,
