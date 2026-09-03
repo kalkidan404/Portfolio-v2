@@ -1,6 +1,42 @@
 const projects = [
   {
-    id: 1,
+  id: 1,
+  title: "FoodOrder",
+  type: "Full-Stack Food Ordering System",
+  description:
+    "A full-stack food ordering platform where users can browse foods and restaurants, add items to their cart, place orders, and make payments online.",
+  whyBuilt:
+    "I built FoodOrder to challenge myself to design, build, and deploy a complete full-stack application with authentication, role-based access, order management, and online payment integration.",
+  howBuilt:
+    "Built with React and React Router on the frontend, and Node.js, Express, PostgreSQL, and Prisma on the backend. Integrated Chapa for online payments and implemented JWT-based authentication with separate user and admin functionality.",
+  stack: [
+    "React",
+    "React Router",
+    "Node.js",
+    "Express",
+    "PostgreSQL",
+    "Prisma",
+    "JWT",
+    "Chapa"
+  ],
+  features: [
+    "User registration and authentication",
+    "Browse foods and restaurants",
+    "Food and restaurant details",
+    "Shopping cart",
+    "Order placement and tracking",
+    "Online payment with Chapa",
+    "Order history",
+    "Admin dashboard",
+    "Admin food management",
+    "Admin restaurant management",
+    "Admin order management",
+    "Role-based access control",
+    "Responsive design"
+  ]
+},
+  {
+    id: 2,
     title: "Kmedia",
     type: "Full-Stack Social Media",
     description:
@@ -23,7 +59,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Blog",
     type: "Full-Stack Blog Platform",
     description:
@@ -46,7 +82,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Telegram Community",
     type: "Community Platform",
     description:
