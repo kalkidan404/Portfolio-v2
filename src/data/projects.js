@@ -1,6 +1,38 @@
 const projects = [
   {
   id: 1,
+  title: "RoyalView",
+  type: "Movie Discovery Web Application",
+
+  description:
+    "A movie discovery platform where users can explore movies, search for titles, view detailed movie information, and discover films based on different categories and preferences.",
+
+  whyBuilt:
+    "I built RoyalView to strengthen my frontend development skills by creating a real-world application that works with external movie data, handles dynamic content, and provides an engaging user experience.",
+
+  howBuilt:
+    "Built with JavaScript and modern frontend development techniques. Integrated a movie API to fetch real-time movie data and implemented dynamic search, movie details, filtering, and responsive user interfaces.",
+
+  stack: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Movie API"
+  ],
+
+  features: [
+    "Movie discovery",
+    "Movie search",
+    "Movie details",
+    "Dynamic movie data",
+    "Movie categories",
+    "API integration",
+    "Responsive design",
+    "Interactive user interface"
+  ]
+},
+  {
+  id: 2,
   title: "FoodOrder",
   type: "Full-Stack Food Ordering System",
   description:
@@ -38,7 +70,7 @@ const projects = [
     live: "https://food-order-pled.vercel.app/",
 },
   {
-    id: 2,
+    id: 3,
     title: "Kmedia",
     type: "Full-Stack Social Media",
     description:
@@ -61,7 +93,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Blog",
     type: "Full-Stack Blog Platform",
     description:
@@ -84,7 +116,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Telegram Community",
     type: "Community Platform",
     description:
