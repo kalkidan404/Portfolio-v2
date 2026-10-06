@@ -29,7 +29,9 @@ const projects = [
     "API integration",
     "Responsive design",
     "Interactive user interface"
-  ]
+  ],
+  github: "https://github.com/kalkidan404/movie-app",
+    live: "https://movie-app-qmju.vercel.app/",
 },
   {
   id: 2,
