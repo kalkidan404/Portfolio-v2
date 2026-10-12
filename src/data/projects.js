@@ -1,6 +1,50 @@
 const projects = [
-  {
+  
+{
   id: 1,
+  title: "FormIt",
+  type: "Survey Builder Web Application",
+
+  description:
+    "A survey creation platform where users can create surveys, share them through unique links, collect responses, and view submitted answers through a personalized dashboard.",
+
+  whyBuilt:
+    "I built FormIt to strengthen my full-stack web development skills by developing a complete application with user authentication, survey management, database relationships, and response collection.",
+
+  howBuilt:
+    "Built with React, Node.js, and Express.js. Used PostgreSQL with Prisma ORM for data management and implemented authentication, survey creation, question and option management, public survey submissions, and individual response viewing.",
+
+  stack: [
+    "React",
+    "Vite",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "Prisma ORM",
+    "JavaScript",
+    "CSS"
+  ],
+
+  features: [
+    "User authentication",
+    "Survey creation and management",
+    "Question and answer option management",
+    "Shareable survey links",
+    "Public survey submissions",
+    "Response collection",
+    "Individual response viewing",
+    "Dashboard statistics",
+    "Survey search",
+    "Responsive interface"
+  ],
+
+  github: "https://github.com/kalkidan404/survey_App",
+  live: "https://survey-app-two-phi.vercel.app/",
+},
+
+
+  {
+  id: 2,
   title: "RoyalView",
   type: "Movie Discovery Web Application",
 
@@ -34,7 +78,7 @@ const projects = [
     live: "https://movie-app-qmju.vercel.app/",
 },
   {
-  id: 2,
+  id: 3,
   title: "FoodOrder",
   type: "Full-Stack Food Ordering System",
   description:
@@ -72,7 +116,7 @@ const projects = [
     live: "https://food-order-pled.vercel.app/",
 },
   {
-    id: 3,
+    id: 4,
     title: "Kmedia",
     type: "Full-Stack Social Media",
     description:
@@ -95,7 +139,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Blog",
     type: "Full-Stack Blog Platform",
     description:
@@ -118,7 +162,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Telegram Community",
     type: "Community Platform",
     description:
